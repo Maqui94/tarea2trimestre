@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Breaking Bad;
+    src: url(IMG/BreakingBad.ttf) format(truetype); 
+}
+.indexhtml{
+    font-family: Breaking Bad;
+}
+html {
+    background-color: #0c3e11 ;
+    font-family:Arial, Helvetica, sans-serif;   
+}
+.indexhtml, .formulariohtml {
+    
+    background: url(IMG/fondo.jpg);
+    background-size: cover;
+}
+body{
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+}
+.texto{
+    color: whitesmoke;
+   font-size: 14px;
+  
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+.poster{ 
+    height: 300px;
+    width: 700px;
+    border: 10px brown;
+    border-style: outset;
+    border-radius: 22px;   
+}
+form{
+    color: darkorange;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+input:valid, textarea:valid, #borrar, #hombre, #mujer, select {
+   color: rgb(237, 253, 7);
+    background: rgb(2, 1, 7);
+    font-size: 10px;
+}
+input:invalid, textarea{
+  color: rgb(255, 0, 0);
+    background-color: rgb(14, 9, 19);
+}
+::placeholder{
+    color: aqua;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1, legend{
+    font-size: 14px;
+}
+.tabla1, .tabla2 {
+   
+    border-collapse: separate;   
+    text-indent: initial;
+    border-spacing: 0px;
+    margin: 0 auto;
+}
+
+
+tr,td {
+    border: 3px solid #2b2c24;
+    border-style: solid;
+    background-color: #2b2c24;
+    width: 70px;
+    height: 60px;
+    color: black;
+    text-align: center;
+    font-size: 14px;  
+    font-weight: bolder;
+    padding: 0; 
+    line-height: 13px;
+}
+.tr2,.grupo0{
+    border: 3px solid #2b2c24;
+    border-style: solid;
+    background-color: #2b2c24;
+    width: 60px;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-size: 14px;  
+    font-weight: bolder;
+    padding: 0; 
+    line-height: 13px;
+        background-color: #c2c62a;  
+}   
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.pequeño{
+    font-size: 10px;
+    font-weight: initial;
+}
+#sk{
+   display: block;
+   width: 100%;
+   height: auto; 
+}
+
+.grupo1{
+    background-color: #b8db1d ;
+}
+.grupo2 {
+    background-color: #d3e582;
+}
+.grupo3{
+    background-color: #eff7c8;
+}
+.grupo4{
+    background-color: #89a419;
+}
+.grupo5{
+    background-color: #63702a;
+}
+.grupo6{
+    background-color: #c5e24b;
+}
+.grupo7{
+    background-color: #bcc49d;
+}
+.grupo8{
+    background-color: #828e50;
+}
+
+#marie{
+    background-color:#ab8ecd; ;
+}
+#imagenes{
+    display: block;
+    width: 100%;
+    height: 100%; 
+}

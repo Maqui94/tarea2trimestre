@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="formulariohtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_tarea2.css">
+    <link rel="icon" type="image/png" href="IMG/icon.png">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1><a href="index.html">Breaking Bad </a> - Que comience el juego!</h1>
+    <form name="Breaking Bad - Que comience el juego!" action="mailto:raul.rodriguez@proeducaglobal.com" method="post" id="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+         <br>  Nombre: <input type="text" name="nombre" id="" placeholder="Pon tu nombre de pila" required>
+          <br> Apellidos: <input type="text" name="apellidos" id="" placeholder="Tus dos apellidos" required>
+          <fieldset> <legend> Dirección Postal</legend>
+          <br> Calle <input type="text" name="direccionpostal" id="" placeholder="Introduzca calle" >
+            Número <input type="text" name="direccionpostal" id="" placeholder="Introducta el número de portal" >
+          Piso,letra... <input type="text" name="direccionpostal" id="" placeholder="Piso, letra, y otras consideraciones" >
+          <br>Código Postal: <input type="number" name="direccionpostal" id="" placeholder="Introduzca el codigo postal">
+                Ciudad: <input type="text" name="direccionpostal" id="" placeholder="Introduzca su ciudad">
+        </fieldset>
+           <br>  DNI: <input type="text" name="dni" id="" placeholder="Nº y letra del DNI,73123170Y" >
+          <br> Correo electrónico:  <input type="email" name="mail" id="" placeholder="Ejemplo. maqui@unir.com" required>
+          <br>Sexo: 
+
+          <div ><span id="hombre"> <input id="hombre" type="radio" name="sexo" value="Hombre" >Hombre </span></div>
+          <br> <div ><span id="mujer"><input  type="radio" name="sexo" value="Mujer" >Mujer </span>  </div>             
+          <br> Fecha de nacimiento: <input type="date" name="fecha"  id=""> 
+          <p>
+          <fieldset><legend>Con quién te gustaría jugar</legend>
+            <br>Selecciona el personaje deseado:
+            <select name="pj" id="" >
+                <option value="" disabled selected style="display:none">Selecciona una opción</option>
+                <option value="1">Jessie Pinkman</option>
+                <option value="2">Walter White</option>
+                <option value="3">Saul Goodman</option>
+                <option value="4">Gustavo Fring</option>
+                <option value="5">Pollos Hermanos</option>
+                <option value="6">Otros personajes</option>
+            </select>
+         <br>  
+         <br>
+          <textarea name="otros" id="" cols="50" rows="5" placeholder="Escribe aqui todo lo que nos quieras decir"></textarea>
+        
+        
+        </fieldset>   
+        <input type="submit" value="Enviar"><input type="reset" value="Borrar" id="borrar"><input type="file" value="Adjuntar archivo" id="adj">
+    </fieldset>
+    </form>
+</body>
+</html>
